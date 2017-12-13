@@ -188,7 +188,29 @@
         <h3>The Latest</h3>
     </div>
     <div class="row">
+        <%
+            for (int i = 0; i < 6; i++) {
+        %>
         <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="https://youtu.be/2Vv-BfVoq4g" data-fancybox="latest">
+                <div class="card">
+                    <img class="card-img-top" src="https://source.unsplash.com/user/nasa/600x400" alt="">
+                    <div class="card-block">
+                        <h5 class="card-title">Video</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">5 hours ago</small>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <%
+            }
+        %>
+        <!-- <div class="col-lg-4 col-md-6 col-sm-12">
             <a href="https://youtu.be/2Vv-BfVoq4g" data-fancybox="latest">
                 <div class="card">
                     <img class="card-img-top" src="https://source.unsplash.com/user/nasa/600x400" alt="">
@@ -283,7 +305,7 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </div> -->
     </div>
 </div>
 

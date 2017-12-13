@@ -33,7 +33,7 @@
                         <i class="fa fa-user-o" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
-                        <h4 class="dropdown-header">UserName</h4>
+                        <h4 class="dropdown-header">안녕하세요, <%=sb.getName() %>님</h4>
                         <a class="dropdown-item disabled" href="#">My Page</a>
                         <a class="dropdown-item drop-btn" href="" data-toggle="modal" data-target="#snlModal">Share</a>
                         <div class="dropdown-divider"></div>
