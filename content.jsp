@@ -12,7 +12,24 @@
                     <li data-target="#splash" data-slide-to="5"></li>
                 </ol>
                 <div class="carousel-inner">
+                    <%
+                        for (i = 0; i < 6; i++) {
+                    %>
                     <div class="carousel-item active">
+                        <a href="<%=sb.getUrl() %>" data-fancybox="splash-slide">
+                            <img class="d-block w-100" src="https://source.unsplash.com/user/pefont/900x600" alt="">
+                            <div class="overlay-slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><%=sb.getTitle() %></h3>
+                                    <p><%=sb.getContent() %></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <%
+                        }
+                    %>
+                    <!-- <div class="carousel-item active">
                         <a href="https://youtu.be/2Vv-BfVoq4g" data-fancybox="splash-slide">
                             <img class="d-block w-100" src="https://source.unsplash.com/user/pefont/900x600" alt="">
                             <div class="overlay-slide">
@@ -77,7 +94,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
                 <a class="carousel-control-prev" href="#splash" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -90,8 +107,32 @@
             </div>
         </div>
         <div class="col-lg-6">
+            <%
+                for (i = 0; i < 2; i++) {
+            %>
             <div class="row">
+                <%
+                    for (i = 0; i < 2; i++) {
+                %>
                 <div class="col-sm">
+                    <a href="<%=sb.getUrl() %>" data-fancybox="splash">
+                        <img class="img-fluid image" src="https://source.unsplash.com/user/nasa/900x600">
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <h4><%=sb.getTitle() %></h4>
+                                <div><%=sb.getContent() %></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <%
+                    }
+                %>
+            </div>
+            <%
+                }
+            %>
+                <!-- <div class="col-sm">
                     <a href="https://youtu.be/2Vv-BfVoq4g" data-fancybox="splash">
                         <img class="img-fluid image" src="https://source.unsplash.com/user/nasa/900x600">
                         <div class="overlay">
@@ -137,7 +178,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

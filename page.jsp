@@ -19,9 +19,10 @@
 </head>
 	
 <body>
+<jsp:useBean id="sb" class="SnlBean"/>
+<jsp:useBean id="user" class="SnlLogin"/>
+<jsp:setPropety name="" property="*"/>
 <jsp:include page="header.jsp">
-	<jsp:param name="name" value="" />
-	<jsp:param name="department" value="" />
 </jsp:include>
 <%@ include file="content.jsp" %>
 <%@ include file="footer.jsp" %>

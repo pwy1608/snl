@@ -2,6 +2,18 @@
 //     interval: 2000
 // })
 
+
+// Truncate Slide Contents
+function truncateText(selector, maxLength) {
+    var element = document.querySelector(selector);
+    var truncated = element.innerText;
+
+    if (truncated.length > maxLength) {
+        truncated = truncated.substr(0, maxLength) + '...';
+    }
+    return truncated;
+}
+
 $.fancybox.defaults.btnTpl.like = '<button data-fancybox-tw class="fancybox-button fancybox-button-like" title="Like">' +
 '<i class="fa fa-heart-o" aria-hidden="true"></i>' +
 '</button>';
@@ -12,6 +24,7 @@ $('body').on('click', '[data-fancybox-like]', function () {
 });
 
 $(document).ready(function () {
+
     // Extract YouTube Thumbnail 
     function getYouTubeID(url) {
         var id = url.match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/);
