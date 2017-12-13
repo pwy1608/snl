@@ -20,12 +20,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#hot">Hot</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link" href="#">Blah</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Blah</a>
-                </li>
+                </li>-->
             </ul>
             <span class="navbar-text">
                 <div class="dropdown">
@@ -35,7 +35,7 @@
                     <div class="dropdown-menu dropdown-menu-right">
                         <h4 class="dropdown-header">UserName</h4>
                         <a class="dropdown-item disabled" href="#">My Page</a>
-                        <a class="dropdown-item drop-btn" href="#" data-toggle="modal" data-target="#exampleModal">Share</a>
+                        <a class="dropdown-item drop-btn" href="" data-toggle="modal" data-target="#snlModal">Share</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item drop-btn-out" href="signout.jsp">Sign-Out</a>
                     </div>

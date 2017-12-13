@@ -213,7 +213,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
             <a href="https://youtu.be/2Vv-BfVoq4g" data-fancybox="latest">
-                <div class="card">
+            <div class="card">
                     <img class="card-img-top" src="https://source.unsplash.com/user/nasa/600x400" alt="">
                     <div class="card-block">
                         <h5 class="card-title">Video</h5>
@@ -347,25 +347,11 @@
 
 </div>
 
-<!-- <div class="container" id="recent">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">One of three columns.</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">One of three columns.</button>
-            </div>
-            <div class="col-sm">
-                One of three columns.
-            </div>
-        </div>
-    </div> -->
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="snlModal" tabindex="-1" role="dialog" aria-labelledby="snlModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content centered">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">
+                <h5 class="modal-title" id="snlModalLabel">
                     Share Video!
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
